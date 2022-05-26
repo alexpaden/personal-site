@@ -1,0 +1,720 @@
+@font-face {
+    font-family: 'colfax-light';
+    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-medium';
+    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-bold';
+    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-light';
+    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-medium';
+    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-bold';
+    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+*,
+*:before,
+*:after {
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon {
+    vertical-align: middle;
+    position: relative;
+    margin-top: -2px;
+    height: 20px;
+    width: 20px
+}
+
+img {
+    pointer-events: none
+}
+
+img {
+    max-width: 100%
+}
+
+a,
+.icon {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+
+@font-face {
+    font-family: 'colfax-light';
+    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-medium';
+    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-bold';
+    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+*,
+*:before,
+*:after {
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+a,
+.icon {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+
+*::-webkit-selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+*::-moz-selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+*::selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+.flex-center,
+.hero,
+.logo,
+.features .row,
+.modal,
+.modal .modal-content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.center {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%
+}
+
+.center-y,
+.shift.clip .word-shift:after,
+.overlay-left,
+.overlay-right,
+form .group label {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%
+}
+
+.center-x,
+.logo,
+.modal .modal-close span {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%
+}
+
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0
+}
+
+input:hover,
+input:active,
+input:focus {
+    outline: none
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 40px #fff inset !important;
+    -webkit-text-fill-color: #222 !important
+}
+
+::-webkit-input-placeholder {
+    color: #222
+}
+
+:-ms-input-placeholder {
+    color: #222
+}
+
+::-moz-placeholder {
+    color: #222
+}
+
+:-moz-placeholder {
+    color: #222
+}
+
+.show-mobile {
+    display: none
+}
+
+@media (max-width: 900px) {
+    .hide-mobile {
+        display: none !important
+    }
+
+    .show-mobile {
+        display: block !important
+    }
+}
+
+@font-face {
+    font-family: 'colfax-light';
+    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-medium';
+    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-bold';
+    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+*,
+*:before,
+*:after {
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon {
+    vertical-align: middle;
+    position: relative;
+    margin-top: -2px;
+    height: 20px;
+    width: 20px
+}
+
+img {
+    pointer-events: none
+}
+
+img {
+    max-width: 100%
+}
+
+a,
+.icon {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+
+*::-webkit-selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+*::-moz-selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+*::selection {
+    background-color: #000000;;
+    color: #fff
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+.flex-center,
+.hero,
+.logo,
+.features .row,
+.modal,
+.modal .modal-content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+body {
+    background: #f2f3f5;
+    font-family: "colfax-medium", sans-serif;
+    text-align: center;
+    color: #222
+}
+
+body.no-scroll {
+    overflow: hidden
+}
+
+.hero {
+    padding: 200px 0 140px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    width: 100%
+}
+
+h1 {
+    padding: 0 0 0 0;
+}
+
+.hero .button {
+    margin-top: 30px
+}
+
+.logo {
+    height: 200px;
+    width: 300px;
+    z-index: 2;
+    top: 0
+}
+
+.logo img {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 200px
+}
+
+.logo:hover img {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1)
+}
+
+.screen-wrapper {
+    max-width: 1800px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    padding: 0 10%;
+}
+
+.screen-wrapper .screen {
+    margin: 0 auto -140px;
+    width: 1400px
+}
+
+.title {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+    width: 750px
+}
+
+.subtitle {
+    margin: 16px 0 0 -4px;
+    font-size: 12px
+}
+
+.subtitle img {
+    position: relative;
+    opacity: 0.4;
+    width: 10px;
+    left: 4px;
+    top: 1px
+}
+
+.title.wide {
+    width: 600px
+}
+
+.section {
+    position: relative;
+    padding: 120px 0
+}
+
+.section:nth-child(odd) {
+    -webkit-box-shadow: 0 0 100px rgba(34, 34, 34, 0.04);
+    box-shadow: 0 0 100px rgba(34, 34, 34, 0.04)
+}
+
+.section-features {
+    padding: 80px 0 40px
+}
+
+.section-features p {
+    margin: 0 auto;
+    max-width: 80%
+}
+
+.section-providers {
+    padding: 120px 0 0
+}
+
+.overlay-left,
+.overlay-right {
+    pointer-events: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 300px;
+    z-index: 2
+}
+
+.overlay-left {
+    left: 0
+}
+
+.overlay-right {
+    right: 0
+}
+
+.overlay-top,
+.overlay-bottom {
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    z-index: 2;
+    left: 0
+}
+
+.overlay-top {
+    top: -1px
+}
+
+.overlay-bottom {
+    bottom: 100px
+}
+
+.content {
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease
+}
+
+.content-blurred {
+    -webkit-filter: blur(40px);
+    filter: blur(40px)
+}
+
+
+.features {
+    padding: 80px 0 100px;
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.features .row {
+    white-space: nowrap;
+    margin: 4px 0
+}
+
+.features .feature {
+    -webkit-box-shadow: 0 20px 30px -10px rgba(34, 34, 34, 0.1);
+    box-shadow: 0 20px 30px -10px rgba(34, 34, 34, 0.1);
+    padding: 20px 26px 16px 24px;
+    border-radius: 4px;
+    background: #fff;
+    margin: 10px
+}
+
+.footer {
+    /* -webkit-box-shadow: 0 0 200px rgba(34, 34, 34, 0.4);
+    box-shadow: 0 0 200px rgba(34, 34, 34, 0.4);
+    background: #fff;
+    position: relative;
+    margin-top: -6px;
+    padding: 60px 0;
+    z-index: 2; */
+
+    line-height: 1.33341;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+    /* padding-bottom: 5px; */
+}
+
+.footer p {
+    color: #222;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'colfax-light';
+    src: url("../fonts/colfax-light.woff") format("woff"), url("../fonts/colfax-light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-medium';
+    src: url("../fonts/colfax-medium.woff") format("woff"), url("../fonts/colfax-medium.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'colfax-bold';
+    src: url("../fonts/colfax-bold.woff") format("woff"), url("../fonts/colfax-bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal
+}
+
+* {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+*,
+*:before,
+*:after {
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.center {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%
+}
+
+.center-y {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%
+}
+
+.center-x {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%
+}
+
+input {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0
+}
+
+.show-mobile {
+    display: none
+}
+
+@media (max-width: 900px) {
+    .hide-mobile {
+        display: none !important
+    }
+
+    .show-mobile {
+        display: block !important
+    }
+}
+
+h1,
+.h1,
+h2,
+.h2 {
+    letter-spacing: -1px;
+    font-weight: normal;
+    font-family: "colfax-light", sans-serif;
+    line-height: 1.6;
+    font-size: 40px;
+    color: #222
+}
+
+h2,
+.h2 {
+    font-size: 36px
+}
+
+h3,
+.h3 {
+    letter-spacing: -1px;
+    font-weight: normal;
+    font-family: "colfax-bold", sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+p,
+.p,
+a {
+    letter-spacing: -0.3px;
+    font-family: "colfax-light", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #222
+}
+
+a {
+    font-family: "colfax-medium", sans-serif
+}
+
+a:hover {
+    color: #000000;
+}
+
+.whitepaper {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    padding-bottom: 5%;
+}
+
+.whitepaper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
